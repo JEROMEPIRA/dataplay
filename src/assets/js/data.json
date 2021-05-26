@@ -1,0 +1,104 @@
+{
+    "musique":[
+          {
+            "artiste": "Queens",
+            "titre": "Bohemian Rhapsody",
+            "annee": 1975,
+            "bpm": 72,
+            "gamme": "B",
+            "dureemin": "5:55'",
+            "dureems":355000,
+            "genre": "Opera-rock",
+            "anecdote": "La partie opéra a nécessité 180 prises de son."
+          },
+          {
+            "artiste": "Bob marley, Wailers",
+            "titre": "Could you be loved",
+            "annee": 1980,
+            "bpm": 103,
+            "gamme": "C",
+            "dureemin": "3:55'",
+            "dureems":235000,
+            "genre": "Raggae",
+            "anecdote": "La chanson est écrite dans un avion en 1979, alors que les Wailers font des exprimentations à la guitare. "
+          },
+          {
+            "artiste": "Shakira, Freshlyground",
+            "titre": "Waka Waka",
+            "annee": 2010,
+            "bpm": 127,
+            "gamme": "B",
+            "dureemin": "3:23'",
+            "dureems":203000,
+            "genre": "Afrobeats, Soca",
+            "anecdote": "C'est la musique d'ouverture de la coupe du monde 2010, le refrain \"Waka Waka\" est repris de la chanson éponyme de \"Zangaléwa\", qui est à l'origine un chant d'armée camerounaise"
+          },
+          {
+            "artiste": "Haddaway",
+            "titre": "What is love",
+            "annee": 1993,
+            "bpm": 123,
+            "gamme": "G",
+            "dureemin": "4:10'",
+            "dureems":250000,
+            "genre": "Eurodance",
+            "anecdote": "Cette chanson a été rerpise en version éléctro 16 ans après sa sortie. Le clip a été visionné plus de 16 millions de fois "
+          },
+          {
+            "artiste": "Stevie Wonder",
+            "titre": "Superstition",
+            "annee": 1972,
+            "bpm": 100,
+            "gamme": "A",
+            "dureemin": "4:27'",
+            "dureems":267000,
+            "genre": "Funk rock",
+            "anecdote": "Au cours des sessions d'enregistrements, Jeff Beck arriva avec l'intro de batterie. Wonder lui demanda de continuer à jouer pendant qu'il improvisait dessus. La majorité du son vient de cette improvisation."
+          },
+          {
+            "artiste": "Freeze Corleone",
+            "titre": "Freeze raël",
+            "annee": 2020,
+            "bpm": "137",
+            "gamme": "B",
+            "dureemin": "4:29'",
+            "dureems":269000,
+            "genre": "Rap drill",
+            "anecdote": "A la sortie de son album, la LICRA pointe de nombreux propos jugés antisémites. Suite à cette polémique, son distubuteur \"Universal\" cesse de collaborer avec le rappeur qui dépassera quand le disque de platine."
+          },
+          {
+            "artiste": "Israel kamakawiwo'ole",
+            "titre": "Over the rainbow",
+            "annee": 1990,
+            "bpm": 86,
+            "gamme": "C",
+            "dureemin": "3:47'",
+            "dureems":227000,
+            "genre": "Folk Hawaïenne",
+            "anecdote": "En 2005, \"facing future devient le premier album de platine certifié de Hawaï, avec plus d'un million de cd vendu au Etats-Unis."
+          },
+          {
+            "artiste": "Daft Punk",
+            "titre": "Around the world ",
+            "annee": 1997,
+            "bpm": 121,
+            "gamme": "G",
+            "dureemin": "7:10'",
+            "dureems":430000,
+            "genre": "Electronic dance",
+            "anecdote": "La phrase est prononcée 144 fois dans la version album de la chanson et 80 fois dans l'édition destinée à la radio."
+          },
+          {
+            "artiste": "Charles Aznavour",
+            "titre": "La Bohème",
+            "annee": 1995,
+            "bpm": 115,
+            "gamme": "C",
+            "dureemin": "4:04'",
+            "dureems" :244000,
+            "genre": "Variété française",
+            "anecdote": "Cette chanson emblématique vendue seulement à plus de 200 000 exemplaires en France, connait un succès international en cinq langues : anglais, a llemand, italien, espagnole et portugais"
+          }
+         ]
+       }
+ 

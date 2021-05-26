@@ -1,10 +1,54 @@
-<html>
-	<head>
-		<title>Gulp Starter Pack</title>
-		<link href="/assets/css/main.css" rel="stylesheet" >
-	</head>
-	<body>
-		<h1>Gulp Starter Pack</h1>
-		<script src="/assets/js/main.min.js" ></script>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="container-select">
+            <select name="music" class="music" id="select-music">
+               <option value="music_0">Choisir une musique...</option>
+            </select>
+         </div>
+         <div class="diskenter" id="diskenter">
+            <canvas id="canvas--left">
+            </canvas>
+         </div>
+         <div class="databutton">
+            <button class="button button__data button__data--bpm" id="bpm">BPM</button>
+            <button class="button button__data button__data--gamme" id="gamme">Gamme</button>
+         </div>
+         <div id="anecdote_container" class="cadre-anecdote">
+            <div class="anecdote__mep anecdote__mep--left">ˮ</div>
+            <p id="anecdote" class="anecdote-text">Choisissez une musique.</p>
+            <div class="anecdote__mep anecdote__mep--right">ˮ</div>
+         </div>
+         <div class="data-container">
+            <h2 class="title">Durée</h2>
+            <p id = "mintext" class="data-text data-text__duree"></p>
+            <h2 class="title">BPM</h2>
+            <p id="bpmtext" class="data-text data-text__bpm"></p>
+            <h2 class="title">Gamme</h2>
+            <p id="gammetext" class="data-text data-text__gamme"></p>
+         </div>
+         <div class="infos">
+            <p id="back_infos" class="add_infos"></p>
+            &nbsp;<a href="https://fr.wikipedia.org/wiki/D%C3%A9signation_des_notes_de_musique_suivant_la_langue" target="_blank" id="link_infos" class="dir_infos"></a>
+         </div>
+         <audio id="player_audio" class="vis_hidden"ontimeupdate="update(this)" src=""></audio>
+         <div class="musique__progressbar vis_hidden">
+            <div class="musique__progress vis_hidden"></div>
+         </div>
+         <div class="musique__controle vis_hidden">
+            <button id = "testButton" class="musique__play" onclick="play('player_audio', this)" ></button>
+         </div>
+      </div>
+	  <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
+	  <script src="assets/js/main.min.js" defer></script>
+   </body>
 </html>
